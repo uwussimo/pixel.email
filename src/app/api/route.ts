@@ -53,7 +53,7 @@ export async function GET(request: Request) {
 
   //return image
   const image_url =
-    'https://www.whitworth.edu/cms/media/whitworth/documents/administration/marketing-amp-communications/whitworth-logos/whitworth-logo-horizontal-rgb.png';
+    'https://upload.wikimedia.org/wikipedia/en/1/1c/Whitworth_University_%28logo%29.svg';
 
   const response = await fetch(image_url);
   return new Response(response.body, {
